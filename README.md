@@ -2,7 +2,7 @@
 Wireless comms using two, cheap Bluetooth modules is easy and stable
 
 ## See video in my YouTube channel https://www.youtube.com/ralphbacon
-### Direct link to video: 
+### Direct link to video: https://youtu.be/U8ogrhu3qWo
 
 JLCPCB Only $2 for PCB Prototype **and Assembly** any colour https://jlcpcb.com/
 
