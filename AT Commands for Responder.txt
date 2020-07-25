@@ -1,0 +1,25 @@
+Before you start ensure you are in command mode, not communication mode. Power on the BT device
+with the button held down or Pin 34 at VCC (max 3v3). Slow blinks indicates command mode.
+
+AT - ensures we have contact. 
+OK - No reply here means comms baud rate incorrect (must be 38400) or not in command mode
+
+AT+BAUD=38400,0,0
+OK
+
+AT+NAME=responder
+OK
+
+AT+ROLE=0 - this will not initiate a connection but wait until it receives a request from another device
+OK
+
+AT+RMAAD - clear any previously paired device
+OK
+
+AT+CMODE=0 = only allow connections to paired devices
+OK
+
+AT+RESET
+OK
+
+Now power off and back on. Device will blink rapidly waiting for a connection request.
