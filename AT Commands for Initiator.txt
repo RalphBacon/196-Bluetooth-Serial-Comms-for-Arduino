@@ -1,0 +1,50 @@
+Before you start ensure you are in command mode, not communication mode. Power on the BT device
+with the button held down or Pin 34 at VCC (max 3v3). Slow blinks indicates command mode.
+
+AT - ensures we have contact. 
+OK - No reply here means comms baud rate incorrect (must be 38400) or not in command mode
+
+AT+RMAAD - remove any previous paired devices
+OK
+
+AT+ROLE=1 - set the device to initiator role, it can request the connecting from now on
+OK
+
+AT+RESET - sometimes needed after a role change
+OK
+
+AT+UART=38400,0,0 - keep the comms at a single baud rate, for both Arduino and Command mode
+OK
+
+AT+CMODE=1 - set to promiscuous mode, pair with any device that wants to
+OK
+
+AT+INQM=0,5,9 - set search mode for 5 devices in 9 seconds then stop
+OK
+
+AT+INIT - starts Serial Port Protocol, ignore an ERROR(17) after this command
+OK
+
+AT+INQ - now it goes and searches for devices
++INQ: 2016:5:248248,1F00,7FFF - found device (2016:5:248248), 1F00 is class of device and 7FFFF is signal strength
+(delay as it continues its search)
+OK
+
+AT+RNAME?2016,5,248248 - query the name of the device. NOTE use commas not colons
++RNAME:responder
+OK
+
+AT+PAIR=2016,5,248248 - pair with the device
+OK
+
+AT+BIND=2016,5,248248 - bind to it permanently
+OK
+
+AT+CMODE=0 - only connect to paired devices from now on
+OK
+
+AT+LINK=2016,5,248248 - link to the device
+OK
+
+That is all. Power cycle the device removing any Pin 34 connection.
+The devices will blink twice now quickly as you saw in the video as it connects to the paired device.
