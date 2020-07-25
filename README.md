@@ -32,7 +32,13 @@ Single HC-05 Wireless Bluetooth Serial Transceiver Module (UK, USA and China war
 https://www.banggood.com/HC-05-Wireless-Bluetooth-Serial-Transceiver-Module-Slave-And-Master-p-908621.html?p=FQ040729393382015118&utm_campaign=25129675&utm_content=3897
 
 3Pcs HC-05 Wireless Bluetooth Serial Transceiver Module (China, USA and UK warehouses)  
-https://www.banggood.com/3Pcs-HC-05-Wireless-bluetooth-Serial-Transceiver-Module-p-1011725.html?p=FQ040729393382015118&utm_campaign=25129675&utm_content=3897
+https://www.banggood.com/3Pcs-HC-05-Wireless-bluetooth-Serial-Transceiver-Module-p-1011725.html?p=FQ040729393382015118&utm_campaign=25129675&utm_content=3897  
+
+CP2102 USB To TTL/Serial Module (This has 3V and 5V) $2.99 + shipping (same as mine)  
+https://www.banggood.com/CP2102-USB-To-TTLSerial-Module-Downloader-p-970993.html?p=FQ040729393382015118&utm_campaign=25129675&utm_content=3897
+
+3Pcs FT232RL FTDI USB To TTL Serial Converter Adapter Module (from China, USA and UK)  
+https://www.banggood.com/3Pcs-FT232RL-FTDI-USB-To-TTL-Serial-Converter-Adapter-Module-p-959210.html?p=FQ040729393382015118&utm_campaign=25129675&utm_content=3897  
 
 ### List of all my videos
 (Special thanks to Michael Kurt Vogel for compiling this)  
